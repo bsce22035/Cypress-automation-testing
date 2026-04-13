@@ -1,0 +1,24 @@
+{
+  "validUser": {
+    "name": "Alishba Zahid",
+    "email": "alishba@mail.com",
+    "password": "MyPassword123",
+    "address": "123 Main Street",
+    "country": "India",
+    "state": "punjab",
+    "city": "lahore",
+    "zipcode": "54000",
+    "mobile": "03001234567"
+  },
+  "invalidUser": {
+    "name": "Alishba",
+    "email": "invalidEmail"
+  },
+  "card": {
+    "name": "Alishba Zahid",
+    "number": "1212121212121212",
+    "cvc": "123",
+    "month": "12",
+    "year": "2026"
+  }
+}

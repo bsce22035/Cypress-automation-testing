@@ -32,7 +32,10 @@ The following modules of the website are automated:
 
 ## Project Structure
 
-```cypress/
+## Project Structure
+
+```
+cypress/
 │
 ├── e2e/
 │   └── automationexercise/
@@ -59,7 +62,8 @@ The following modules of the website are automated:
 │   ├── commands.js
 │   └── e2e.js
 │
-└── screenshots/```
+└── screenshots/
+```
 
 ## Installation
 1. Clone the repository

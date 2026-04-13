@@ -31,7 +31,8 @@ The following modules of the website are automated:
 4. Visual Studio Code – Development environment
 
 ## Project Structure
-cypress/
+
+```cypress/
 │
 ├── e2e/
 │   └── automationexercise/
@@ -58,29 +59,26 @@ cypress/
 │   ├── commands.js
 │   └── e2e.js
 │
-└── screenshots/
+└── screenshots/```
 
 ## Installation
-Clone the repository
-git clone <repo-link>
-cd project-folder
-Initialize project
-npm init -y
-Install Cypress
-npm install cypress --save-dev
+1. Clone the repository
+2. git clone <repo-link>
+3. cd project-folder
+4. Initialize project
+5. npm init -y
+6. Install Cypress npm install cypress --save-dev
 
 ## Running Tests
-Open Cypress Test Runner (Interactive Mode)
-npx cypress open
-Run in Headless Mode
-npx cypress run
+1. Open Cypress Test Runner (Interactive Mode)
+2. npx cypress open, npx cypress run
 
 ## Key Concepts Used
-Page Object Model (POM)
-Reusable components
-Assertions and validations
-Automated workflows
-Test data management using fixtures
+- Page Object Model (POM)
+- Reusable components
+- Assertions and validations
+- Automated workflows
+- Test data management using fixtures
 
 ## Conclusion
 This project highlights how Cypress combined with POM provides a robust, scalable, and maintainable automation framework for testing modern web applications, especially e-commerce systems
